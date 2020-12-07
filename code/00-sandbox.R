@@ -14,7 +14,7 @@ p
 
 # save the widget
 # some weird bug, won't take relative file paths
-f<-"outputs/test.html"
+f<-"outputs/index.html"
 saveWidget(p,file.path(normalizePath(dirname(f)),
                                      basename(f)))
 
