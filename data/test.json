@@ -1,0 +1,44 @@
+{"nodes":[
+{"name":"UKCLJ", "group":"hos"},
+{"name":"KIBVS", "group":"icu"},
+{"name":"Ginek", "group":"icu"},
+{"name":"UKCMB", "group":"hos"},
+{"name":"UKCMB", "group":"icu"},
+{"name":"UKG", "group":"hos"},
+{"name":"UKG", "group":"icu"},
+{"name":"ICU", "group":"report"},
+{"name":"HOS", "group":"report"},
+{"name":"MZ", "group":"inst"},
+{"name":"Sledilnik", "group":"inst"},
+{"name":"CIT & CIIM", "group":"icu"},
+{"name":"RC-A", "group":"icu"},
+{"name":"RC-B", "group":"icu"},
+{"name":"RC-C", "group":"icu"},
+{"name":"RC-D", "group":"icu"}
+],
+"links":[
+{"source":2,"target":0,"value":1},
+{"source":4,"target":3,"value":1},
+{"source":6,"target":5,"value":1},
+{"source":1,"target":10,"value":4},
+{"source":0,"target":9,"value":6},
+{"source":3,"target":9,"value":1},
+{"source":5,"target":9,"value":1},
+{"source":9,"target":8,"value":3},
+{"source":10,"target":7,"value":6},
+{"source":11,"target":0,"value":1},
+{"source":12,"target":1,"value":1},
+{"source":13,"target":1,"value":1},
+{"source":14,"target":1,"value":1},
+{"source":15,"target":1,"value":1},
+{"source":12,"target":0,"value":1},
+{"source":13,"target":0,"value":1},
+{"source":14,"target":0,"value":1},
+{"source":15,"target":0,"value":1},
+{"source":2,"target":10,"value":1},
+{"source":11,"target":10,"value":1}
+
+
+
+]}
+
