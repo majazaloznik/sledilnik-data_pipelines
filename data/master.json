@@ -145,9 +145,21 @@
     {"source":"UKG-LAB","target":"NIJZ","value":1, "group":1},
     {"source":"SB NG-LAB","target":"NIJZ","value":1, "group":1},
     {"source":"SB SG-LAB","target":"NIJZ","value":1, "group":1},
-    {"source":"NIJZ","target":"EPI","value":10, "group":1},
-    {"source":"EPI","target":"Grandmother of all GoogleSheets","value":10, "group":1}
-
+    {"source":"NIJZ","target":"EPI","value":23, "group":1},
+    {"source":"EPI","target":"Grandmother of all GoogleSheets","value":23, "group":1},
+    {"source":"SB CE","target":"NIJZ","value":1, "group":1},
+    {"source":"SB NM","target":"NIJZ","value":1, "group":1},
+    {"source":"SB MS","target":"NIJZ","value":1, "group":1},
+    {"source":"SB SG","target":"NIJZ","value":1, "group":1},
+    {"source":"SB PT","target":"NIJZ","value":1, "group":1},
+    {"source":"SB TR","target":"NIJZ","value":1, "group":1},
+    {"source":"SB IZ","target":"NIJZ","value":1, "group":1},
+    {"source":"SB NG","target":"NIJZ","value":1, "group":1},
+    {"source":"SB BR","target":"NIJZ","value":1, "group":1},
+    {"source":"SB JE","target":"NIJZ","value":1, "group":1},
+    {"source":"UKCMB","target":"NIJZ","value":1, "group":1},
+    {"source":"UKCLJ","target":"NIJZ","value":1, "group":1},
+    {"source":"UKG","target":"NIJZ","value":1, "group":1}
     ]}
     
     
