@@ -56,7 +56,7 @@
     {"name":"DSO3", "group":"dso"},
     {"name":"DSO4", "group":"dso"},
     {"name":"DSO5", "group":"dso"},
-    {"name":"Grandmother of all GoogleSheets", "group":"data"}
+    {"name":"THE GoogleSheet", "group":"data"}
 
 
     ],
@@ -120,10 +120,10 @@
     {"source":"NIJZ","target":"EPIDSO","value":6, "group":"blue"},
     {"source":"EPIDSO","target":"Vlada RS","value":6, "group":"blue"},
     {"source":"Vlada RS","target":"Twitter","value":1, "group":"blue"},
-    {"source":"HOS","target":"Grandmother of all GoogleSheets", "value":18, "group":"blue"},
-    {"source":"ICU","target":"Grandmother of all GoogleSheets", "value":18, "group":"blue"},
-    {"source":"LAB","target":"Grandmother of all GoogleSheets", "value":9, "group":"blue"},
-    {"source":"Twitter","target":"Grandmother of all GoogleSheets", "value":1, "group":"blue"},
+    {"source":"HOS","target":"THE GoogleSheet", "value":18, "group":"blue"},
+    {"source":"ICU","target":"THE GoogleSheet", "value":18, "group":"blue"},
+    {"source":"LAB","target":"THE GoogleSheet", "value":9, "group":"blue"},
+    {"source":"Twitter","target":"THE GoogleSheet", "value":1, "group":"blue"},
     {"source":"IMI","target":"IMI","value":1, "group":1},
     {"source":"NLZOH LJ","target":"IMI","value":1, "group":1},
     {"source":"NLZOH MB","target":"IMI","value":1, "group":1},
@@ -146,7 +146,7 @@
     {"source":"SB NG-LAB","target":"NIJZ","value":1, "group":1},
     {"source":"SB SG-LAB","target":"NIJZ","value":1, "group":1},
     {"source":"NIJZ","target":"EPI","value":23, "group":1},
-    {"source":"EPI","target":"Grandmother of all GoogleSheets","value":23, "group":1},
+    {"source":"EPI","target":"THE GoogleSheet","value":23, "group":1},
     {"source":"SB CE","target":"NIJZ","value":1, "group":1},
     {"source":"SB NM","target":"NIJZ","value":1, "group":1},
     {"source":"SB MS","target":"NIJZ","value":1, "group":1},
