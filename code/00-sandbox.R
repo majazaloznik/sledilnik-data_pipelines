@@ -16,9 +16,9 @@ my_color <- 'd3.scaleOrdinal() .domain(["1", "2"]) .range(["#69b3a2", "steelblue
 
 p <- sankeyNetwork(Links = links, Nodes = test$nodes, Source = "source",
                    Target = "target", Value = "value", NodeID = "name",
-                   sinksRight	= TRUE,
+                   sinksRight	= FALSE,
                    #LinkGroup = "group", colourScale=my_color,
-                   fontSize = 18, nodeWidth = 30, NodeGroup = "group", nodePadding = 13, iterations = 100)
+                   fontSize = 18, nodeWidth = 45, NodeGroup = "group", nodePadding = 13, iterations = 100)
 p
 
 
