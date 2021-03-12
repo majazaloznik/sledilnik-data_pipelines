@@ -144,7 +144,7 @@
     {"source":"Zdr.z. 3 (eRCO)", "target":"NIJZ", "value":1, "group":5},
     {"source":"Zdr.z. etc. (eRCO)", "target":"NIJZ", "value":1, "group":5},
     {"source":"NIJZ","target":"Vaccinations GS","value":2, "group":5},
-    {"source":"NIJZ","target":"Vaccinations GS","value":1, "group":13},
+    {"source":"NIJZ","target":"Vaccinations GS","value":2, "group":13},
     {"source":"Vaccinations GS","target":"csv/API","value":5, "group":11},
     {"source":"Patients GS","target":"csv/API","value":10, "group":11},
     {"source":"NIJZ","target":"Tests GS","value":1, "group":13},
