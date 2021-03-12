@@ -49,7 +49,7 @@
     {"name":"Zdr.z. 3 (eRCO)", "group":"erco"},
     {"name":"Zdr.z. etc. (eRCO)", "group":"erco"},
     {"name":"NIJZ", "group":"inst"},
-    {"name":"LAB", "group":"report"},
+    {"name":"https://majazaloznik.github.io/sledilnik-data_pipelines/", "group":"report"},
     {"name":"EPIDSO", "group":"report"},
     {"name":"EPI (daily & weekly)", "group":"report"},
     {"name":"Patients GS", "group":"data"},
