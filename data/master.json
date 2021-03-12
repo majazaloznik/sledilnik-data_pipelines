@@ -146,7 +146,7 @@
     {"source":"NIJZ","target":"Vaccinations GS","value":2, "group":5},
     {"source":"NIJZ","target":"Vaccinations GS","value":2, "group":13},
     {"source":"Vaccinations GS","target":"csv/API","value":5, "group":11},
-    {"source":"Patients GS","target":"csv/API","value":10, "group":11},
+    {"source":"Patients GS","target":"csv/API","value":32, "group":11},
     {"source":"NIJZ","target":"Tests GS","value":1, "group":13},
     {"source":"Tests GS","target":"csv/API","value":1, "group":11},
     {"source":"šola/vrtec 1","target":"MIZŠ","value":1, "group":6},
