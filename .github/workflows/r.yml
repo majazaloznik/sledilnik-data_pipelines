@@ -34,9 +34,9 @@ jobs:
           install.packages(c("networkD3", "htmlwidgets"))
         shell: Rscript {0}
 
-      - name: Check
-        run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
-        shell: Rscript {0}
+      - name: Build
+        run: |
+          Rscript code/00-sandbox.R
 
       - name: git diff
         run: |
