@@ -10,9 +10,9 @@ name: R
 
 on:
   push:
-    branches: [ master ]
+    branches: [ gh-action-build ]
   pull_request:
-    branches: [ master ]
+    branches: [ gh-action-build ]
   workflow_dispatch:
 
 jobs:
