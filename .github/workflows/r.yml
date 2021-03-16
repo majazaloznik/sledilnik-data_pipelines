@@ -1,0 +1,64 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+#
+# See https://github.com/r-lib/actions/tree/master/examples#readme for
+# additional example workflows available for the R community.
+
+name: R
+
+on:
+  push:
+    branches: [ master, gh-action-build ]
+    paths:
+    - '.github/workflows/r.yml'
+    - 'data/master.json'
+    - 'code/00-sandbox.R'
+  pull_request:
+    branches: [ master, gh-action-build ]
+    paths:
+    - '.github/workflows/r.yml'
+    - 'data/master.json'
+    - 'code/00-sandbox.R'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        r-version: [4.0]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up R ${{ matrix.r-version }}
+        uses: r-lib/actions/setup-r@v1
+        with:
+          r-version: ${{ matrix.r-version }}
+      - uses: r-lib/actions/setup-pandoc@v1
+      - name: Install dependencies
+        run: |
+          install.packages(c("networkD3", "htmlwidgets"))
+        shell: Rscript {0}
+
+      - name: Build
+        run: |
+          Rscript code/00-sandbox.R
+
+      - name: git diff
+        run: |
+          git status
+          git diff
+
+      # Git commit + push, see https://github.com/github-actions-x/commit
+      # - name: Publish changes to git
+      #   if: github.ref == 'refs/heads/master'
+      #   uses: github-actions-x/commit@v2.7
+      #   with:
+      #     github-token: ${{ secrets.GITHUB_TOKEN }}
+      #     push-branch: 'master'
+      #     commit-message: 'Generated docs update 🤖'
+      #     rebase: 'true' # pull and rebase before commit
+      #     files: docs/
+      #     name: Docs build 🤖
