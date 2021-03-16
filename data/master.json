@@ -56,25 +56,36 @@
     {"name":"csv/API", "group":"script"},
     {"name":"Vaccinations GS", "group":"data"},
     {"name":"Tests GS", "group":"data"},
+
     {"name":"šola/vrtec 1", "group":"sole"},
     {"name":"šola/vrtec 2", "group":"sole"},
     {"name":"šola/vrtec 3", "group":"sole"},
     {"name":"šola/vrtec etc.", "group":"sole"},
     {"name":"MIZŠ", "group":"inst"},
     {"name":"github", "group":"repo"},
-    {"name":"anon. uporabnik 1", "group":"pos"},
-    {"name":"anon. uporabnik 2", "group":"pos"},
-    {"name":"anon. uporabnik 3", "group":"pos"},
-    {"name":"anon. uporabnik etc.", "group":"pos"},
+
+    {"name":"#OstaniZdrav uporabnik 1", "group":"pos"},
+    {"name":"#OstaniZdrav uporabnik 2", "group":"pos"},
+    {"name":"#OstaniZdrav uporabnik 3", "group":"pos"},
+    {"name":"#OstaniZdrav uporabnik etc.", "group":"pos"},
     {"name":"#OstaniZdrav server (MJU)", "group":"repo"},
+    {"name":"Google Play Store", "group":"appstore"},
+    {"name":"Apple AppStore", "group":"appstore"},
+    {"name":"MJU", "group":"inst"},
+    {"name":"podatki.gov.si", "group":"repo"},
+
     {"name":"čist.naprava 1", "group":"cn"},
     {"name":"čist.naprava 2", "group":"cn"},
     {"name":"čist.naprava 3", "group":"cn"},
     {"name":"čist.naprava etc.", "group":"cn"},
     {"name":"NIB", "group":"inst"},
-    {"name":"NIB GS", "group":"data"}
+    {"name":"NIB GS", "group":"data"},
 
-
+    {"name":"Prebivalec 1", "group":"preb"},
+    {"name":"Prebivalec 2", "group":"preb"},
+    {"name":"Prebivalec 3", "group":"preb"},
+    {"name":"Prebivalec etc.", "group":"preb"},
+    {"name":"eUprava", "group":"repo"}
 
     ],
     "links":[
@@ -149,23 +160,42 @@
     {"source":"Patients GS","target":"csv/API","value":32, "group":11},
     {"source":"NIJZ","target":"Tests GS","value":1, "group":13},
     {"source":"Tests GS","target":"csv/API","value":1, "group":11},
+
     {"source":"šola/vrtec 1","target":"MIZŠ","value":1, "group":6},
     {"source":"šola/vrtec 2","target":"MIZŠ","value":1, "group":6},
     {"source":"šola/vrtec 3","target":"MIZŠ","value":1, "group":6},
     {"source":"šola/vrtec etc.","target":"MIZŠ","value":1, "group":6},
     {"source":"MIZŠ","target":"github","value":4, "group":6},
-    {"source":"github","target":"csv/API","value":5, "group":11},
-    {"source":"anon. uporabnik 1","target":"#OstaniZdrav server (MJU)","value":1, "group":14},
-    {"source":"anon. uporabnik 2","target":"#OstaniZdrav server (MJU)","value":1, "group":14},
-    {"source":"anon. uporabnik 3","target":"#OstaniZdrav server (MJU)","value":1, "group":14},
-    {"source":"anon. uporabnik etc.","target":"#OstaniZdrav server (MJU)","value":1, "group":14},
-    {"source":"#OstaniZdrav server (MJU)","target":"csv/API","value":5, "group":11},
+    {"source":"github","target":"csv/API","value":4, "group":11},
+
+    {"source":"#OstaniZdrav uporabnik 1","target":"#OstaniZdrav server (MJU)","value":1, "group":14},
+    {"source":"#OstaniZdrav uporabnik 2","target":"#OstaniZdrav server (MJU)","value":1, "group":14},
+    {"source":"#OstaniZdrav uporabnik 3","target":"#OstaniZdrav server (MJU)","value":1, "group":14},
+    {"source":"#OstaniZdrav uporabnik etc.","target":"#OstaniZdrav server (MJU)","value":1, "group":14},
+    {"source":"#OstaniZdrav server (MJU)","target":"podatki.gov.si","value":1, "group":11},
+    {"source":"#OstaniZdrav server (MJU)","target":"csv/API","value":3, "group":11},
+    {"source":"#OstaniZdrav uporabnik 1","target":"Google Play Store","value":1, "group":"appDownloadCount"},
+    {"source":"#OstaniZdrav uporabnik 2","target":"Google Play Store","value":1, "group":"appDownloadCount"},
+    {"source":"#OstaniZdrav uporabnik 3","target":"Apple AppStore","value":1, "group":"appDownloadCount"},
+    {"source":"#OstaniZdrav uporabnik etc.","target":"Apple AppStore","value":1, "group":"appDownloadCount"},
+    {"source":"Google Play Store","target":"MJU","value":1, "group":"appDownloadCount"},
+    {"source":"Apple AppStore","target":"MJU","value":1, "group":"appDownloadCount"},
+    {"source":"MJU","target":"podatki.gov.si","value":1, "group":"appDownloadCount"},
+    {"source":"podatki.gov.si","target":"csv/API","value":3, "group":11},
+
     {"source":"čist.naprava 1","target":"NIB","value":1, "group":15},
     {"source":"čist.naprava 2","target":"NIB","value":1, "group":15},
     {"source":"čist.naprava 3","target":"NIB","value":1, "group":15},
     {"source":"čist.naprava etc.","target":"NIB","value":1, "group":15},
     {"source":"NIB","target":"NIB GS","value":4, "group":15},
-    {"source":"NIB GS","target":"csv/API","value":4, "group":11}
+    {"source":"NIB GS","target":"csv/API","value":4, "group":11},
+
+    {"source":"Prebivalec 1","target":"eUprava","value":1, "group":"interesCepljenja"},
+    {"source":"Prebivalec 2","target":"eUprava","value":1, "group":"interesCepljenja"},
+    {"source":"Prebivalec 3","target":"eUprava","value":1, "group":"interesCepljenja"},
+    {"source":"Prebivalec etc.","target":"eUprava","value":1, "group":"interesCepljenja"},
+    {"source":"eUprava","target":"podatki.gov.si","value":1, "group":"interesCepljenja"},
+    {"source":"eUprava","target":"NIJZ","value":3, "group":"interesCepljenja"}
 
     ]}
     
