@@ -10,9 +10,17 @@ name: R
 
 on:
   push:
-    branches: [ gh-action-build ]
+    branches: [ master, gh-action-build ]
+    paths:
+    - '.github/workflows/r.yml'
+    - 'data/master.json'
+    - 'code/00-sandbox.R'
   pull_request:
-    branches: [ gh-action-build ]
+    branches: [ master, gh-action-build ]
+    paths:
+    - '.github/workflows/r.yml'
+    - 'data/master.json'
+    - 'code/00-sandbox.R'
   workflow_dispatch:
 
 jobs:
@@ -43,4 +51,14 @@ jobs:
           git status
           git diff
 
-      # - name: git commit
+      # Git commit + push, see https://github.com/github-actions-x/commit
+      # - name: Publish changes to git
+      #   if: github.ref == 'refs/heads/master'
+      #   uses: github-actions-x/commit@v2.7
+      #   with:
+      #     github-token: ${{ secrets.GITHUB_TOKEN }}
+      #     push-branch: 'master'
+      #     commit-message: 'Generated docs update 🤖'
+      #     rebase: 'true' # pull and rebase before commit
+      #     files: docs/
+      #     name: Docs build 🤖
