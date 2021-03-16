@@ -1,5 +1,7 @@
 # Sledilnik data pipeline visualisation and presentation
 
+[![R](https://github.com/stefanb/sledilnik-data_pipelines/actions/workflows/r.yml/badge.svg)](https://github.com/stefanb/sledilnik-data_pipelines/actions/workflows/r.yml)
+
 Live: https://majazaloznik.github.io/sledilnik-data_pipelines/
 
 * v.1.0.0 2020-12-06
